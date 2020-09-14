@@ -7,4 +7,38 @@ div {
   min-width: 100px;
   border: 1px solid black;
   margin: 5px;
+  background: grey;
+}
+
+.huber,
+.huber div {
+  background: red;
+}
+
+.meier {
+  background: green;
+}
+
+#lisa {
+  background: pink;
+}
+
+#lisa.meier {
+  background: green;
+}
+
+div#lisa.meier {
+  background: black;
+}
+
+.huber #lisa.meier {
+  background: blue;
+}
+
+.meier #sepp {
+  background: brown;
+}
+
+div.meier #sepp {
+  background: coral;
 }

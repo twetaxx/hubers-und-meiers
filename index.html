@@ -5,16 +5,23 @@
     <title>Spezifität CSS</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="neu.css" />
+
+    <style>
+      div.meier #sepp {
+        background: black !important;
+      }
+    </style>
   </head>
   <body>
     <div class="huber">
-      <div id="lisa"></div>
+      <div id="lisa" class="meier"></div>
       <div id="georg"></div>
       <div id="susi"></div>
     </div>
 
     <div class="meier">
-      <div id="sepp"></div>
+      <div id="sepp" style="background: white"></div>
       <div id="luis"></div>
       <div id="brigitte"></div>
     </div>
